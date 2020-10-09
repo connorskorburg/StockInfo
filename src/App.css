@@ -18,13 +18,13 @@
   .nav-right {
     margin-left: auto;
   }
-    .nav-right a {
+    .nav-link {
       border-bottom: 2px solid #fff;
       text-decoration: none;
       margin-left: 1.5rem;
       color: #000;
     }
-    .nav-right a:hover {
+    .nav-link:hover {
       cursor: pointer;
       border-bottom: 2px solid #000;
       transition: all 350ms ease-in-out;
@@ -119,6 +119,14 @@
       box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
     }
 
+    .result {
+      width: 100%;
+      padding: 1rem 5%;
+    }
+
+      .result h1 {
+        text-align: center;
+      }
 
 /* loading spinner */
 .loading {
