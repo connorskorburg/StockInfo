@@ -134,9 +134,9 @@
   height: 150px;
   border-radius: 50%;
   margin: 2rem auto;
-  border: 20px solid rgb(242, 248, 255);
-  border-top: 20px solid #000;
-  border-bottom: 20px solid #000;
+  border: 20px solid #f4f4f4;
+  border-top: 20px solid rgb(80, 80, 80);
+  border-bottom: 20px solid rgb(80, 80, 80);
   animation: loader 2s linear infinite;
 }
 
